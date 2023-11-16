@@ -1,0 +1,31 @@
+#Laboratorium 0
+zadanie 1
+type(1+2)
+<class 'int'>
+type(1+4.5)
+<class 'float'>
+type(3/2)
+<class 'float'>
+type(4/2)
+<class 'float'>
+type(3//2)
+<class 'int'>
+type(-3//2)
+<class 'int'>
+type(11%2)
+<class 'int'>
+type(2**10)
+<class 'int'>
+type(8**(1/2))
+<class 'float'>
++ suma
+/ dzielenie
+// dzielenie całkowite
+** potęgowanie
+% modulo reszta z dzielenia
+zadanie 2
+int(3.0) zmienia liczbę w liczbę całkowitą
+float(3) zmienia liczbę w liczbę zmiennoprzecinkową
+float("3") zmienia tekst w liczbę zmiennoprzecinkową
+str(12.4)  zmienia liczbę zmiennoprzecinkową w tekst
+bool(0) zmienia liczbę w logiczny typ danych
