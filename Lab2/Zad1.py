@@ -7,7 +7,7 @@ if a>b:
         if b % 2 == 0:
             print(b)
         b+=1
-elif a== and a%2==0:
+elif a==b and a%2==0:
     print("a jest równe b")
 
 else:
