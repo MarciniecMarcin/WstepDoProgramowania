@@ -35,3 +35,10 @@ k=0
 for i in range(len(lista)):
    k+=lista[i].count("K")
 print(k)
+#c
+kt=0
+for i in range(len(lista)):
+   k+=lista[i].count("kt")
+print(kt)
+
+#d
