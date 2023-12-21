@@ -2,6 +2,7 @@ import random
 #a
 n=int(input("ile elementów ma lista "))
 x=int(input("ile znaków maksymalnie "))
+s=int(input("ile jest ciągów znaków dłuższych "))
 #ascii 65-90
 print(random.randint(65, 90))
 koniec=0
@@ -38,7 +39,12 @@ print(k)
 #c
 kt=0
 for i in range(len(lista)):
-   k+=lista[i].count("kt")
+   kt+=lista[i].count("kt")
 print(kt)
-
 #d
+ciagZnakow=[]
+for i in lista:
+    if len(i) > s:
+        ciagZnakow.append(i)
+
+print(len(ciagZnakow))
